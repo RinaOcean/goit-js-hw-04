@@ -6,7 +6,7 @@ const account = {
   discount: 0.1,
   orders: ["order-1", "order-2", "order-3"],
   changeDiscount(value) {
-    discount = value;
+    this.discount = value;
   },
   showOrders() {
     return this.orders;
